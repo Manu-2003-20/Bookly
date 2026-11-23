@@ -17,9 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let window = UIWindow(windowScene: windowScene)
         
-        let homeViewController = UIViewController()
-        homeViewController.view.backgroundColor = .systemBackground
-        homeViewController.title = "Bookly"
+        let homeViewController = BooksViewController()
         
         let navigationController = UINavigationController(rootViewController: homeViewController)
         
